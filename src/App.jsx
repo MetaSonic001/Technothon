@@ -1,13 +1,17 @@
 import {BrowserRouter} from 'react-router-dom'
 import Hero from './components/Hero'
+import Navbar from "./components/Navbar";
+import Footer from './components/Footer';
 
 const App = () => {
   return (
       <BrowserRouter>
         <div className='relative z-0 bg-primary'>
           <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-            {/* <Navbar /> */}
+            <Navbar />
+            <div>
             <Hero />
+            </div>
           </div>
           {/* <About /> */}
           {/* <StepProcess /> */}
@@ -19,7 +23,7 @@ const App = () => {
           {/* <PreviousMoments /> */}
           {/* <Sponsors /> */}
           {/* <ContactUs /> */}
-
+          <Footer />
 
 
         </div>

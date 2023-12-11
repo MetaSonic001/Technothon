@@ -4,12 +4,24 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "Timeline",
+        id: "timeline",
         title: "Timeline",
     },
     {
+        id: "problem statements",
+        title: "Problem Statements",
+    },
+    {
+        id: "faq",
+        title: "FAQ",
+    },
+    {
+        id: "sponsors",
+        title: "Sponsors",
+    },
+    {
         id: "contact",
-        title: "Contact",
+        title: "Contact Us",
     },
 ];
 

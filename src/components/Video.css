@@ -1,15 +1,19 @@
+/* Video.css */
+
+/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
 }
 
 .main {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
 video {
   width: 100%;
   height: 100%;
-    object-fit: cover;
+  object-fit: cover;
+  object-position: center; /* Adjust this to move the visible part vertically */
 }
