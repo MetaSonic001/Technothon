@@ -2,7 +2,7 @@ import Plx from "react-plx";
 import Img1 from '../assets/pnggg.jpg';
 import Img2 from '../assets/noun-bandraworli-sea-link-1019314.png';
 import Img3 from '../assets/GG.png';
-import "./Parallax3 copy.css"
+import "./ParallaxOg.css"
 
 const ParallaxOg = () => {
   return (

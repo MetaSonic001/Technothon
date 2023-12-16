@@ -4,7 +4,7 @@
 // import Video from './Video';
 import About from './About';
 
-import ParallaxOg from "./Parallax3 copy";
+import ParallaxOg from "./ParallaxOg";
 
 // import Register from './Register';
 const App = () => {
