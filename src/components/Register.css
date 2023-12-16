@@ -1,0 +1,17 @@
+.register_btn {
+    align-items: center;
+    background: #ad5389;
+    background: linear-gradient(90deg,#ce3374,#ee2a7b);
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    display: flex;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+}
+.mt-4 {
+    margin-top: 1rem;
+}

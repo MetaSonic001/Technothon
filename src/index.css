@@ -4,7 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+  /* background: linear-gradient(to right, #001f3f, #004080); */
+  background-color: #81D0D4;
+  
+  background-size: cover;
+}
 
 @layer utilities {
   .max-container {

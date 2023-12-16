@@ -6,12 +6,13 @@ import { motion, AnimatePresence } from 'framer-motion'; // Added AnimatePresenc
 import { styles } from '../styles.js';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion.js';
+// import icon from './icons'
 
 import 'react-vertical-timeline-component/style.min.css';
 
 import { TimelineData } from '../constants/index.js';
 
-const TimelineEvent = ({ title, date }) => (
+const TimelineEvent = ({ title, date, icon }) => (
     <VerticalTimelineElement
         contentStyle={{
             background: '#1d1836',
@@ -21,6 +22,7 @@ const TimelineEvent = ({ title, date }) => (
         contentArrowStyle={{ borderRight: '7px solid  #232631' }}
         date={date}
         iconStyle={{ background: '#383E56', padding: '15px' }}
+        icon={icon}
     >
         <div>
             <h3 className='text-white text-[24px] font-bold'>{title}</h3>
@@ -31,6 +33,7 @@ const TimelineEvent = ({ title, date }) => (
 TimelineEvent.propTypes = {
     title: PropTypes.any.isRequired,
     date: PropTypes.any.isRequired,
+    icon: PropTypes.element.isRequired,
 };
 
 const Timeline = () => (
@@ -52,4 +55,4 @@ const Timeline = () => (
     </>
 );
 
-export default SectionWrapper(Timeline, 'blindBet');
+export default SectionWrapper(Timeline, 'timeline');

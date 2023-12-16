@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { navLinks } from '../constants/index';  // Update the path accordingly
 
 const Footer = () => {

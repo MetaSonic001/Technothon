@@ -55,3 +55,27 @@ h3 {
   padding: 3rem 1rem;
   text-align: justify;
 }
+
+@media (max-width: 1024px)
+.text {
+    font-size: 4em;
+}
+
+.text {
+  font-size: 6em;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px hsla(0,0%,6%,.4), 1px 22px 10px hsla(0,0%,6%,.2), 1px 25px 35px hsla(0,0%,6%,.2), 1px 30px 60px hsla(0,0%,6%,.4);
+}
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249/var(--tw-text-opacity));
+}
+.z-10 {
+  z-index: 10;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
